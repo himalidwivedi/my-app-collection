@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:theme="@style/ThemeOverlay.AppCompat.Light">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="@string/item_general">
+
+            <menu>
+
+                <item android:title="@string/item_notes"
+                    android:icon="@drawable/ic_notes"
+                    android:id="@+id/notes"
+                    android:checkable="true"/>
+
+                <item android:title="@string/item_add_new"
+                    android:id="@+id/addNote"
+                    android:icon="@drawable/ic_add_new"/>
+
+                <item android:title="@string/item_sync_notes"
+                    android:id="@+id/sync"
+                    android:icon="@drawable/ic_sync"/>
+
+            </menu>
+
+        </item>
+        <item android:title="@string/item_logout">
+
+            <menu>
+
+                <item android:id="@+id/logout"
+                    android:title="@string/item_logout"
+                    android:icon="@drawable/ic_log_out"/>
+
+            </menu>
+
+        </item>
+
+    </group>
+
+</menu>
